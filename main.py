@@ -60,6 +60,7 @@ def hello_world():
     <p class="text-center-2-5">The Graphics Card That Will Change The Way Gamers Play Games</p>
 </body>
 </html>"""
+
 @app.route("/company")
 def company_info():
     return """
@@ -85,7 +86,7 @@ def company_info():
         }
         .text-center-2-5 {
             font-size: 28px;
-            margin-top: 10px;
+            margin-top: 19px;
             text-align: center;
             color: #555;
             font-weight: normal;
@@ -119,8 +120,11 @@ def company_info():
     <div class="seperator-1"></div>
     <p class="text-center-2">Nvidia Developers</p>
     <p class="text-center-2-5">Empowering Developers to Create the Future of AI and Graphics</p>
+    <p class="text-center-2-5">Apply for a job here.</p>
+    <button class="Normalize-Button" style="margin: 0 auto; padding: 10px 20px; font-size: 16px; background-color: #19d400; color: white; border: none; border-radius: 5px; cursor: pointer; position: absolute; justify-content: center; align-items: center;">Apply Now</button>
 </body>
 </html>
 """
+
 if __name__ == "__main__":
     app.run(debug=True)
